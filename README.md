@@ -9,10 +9,17 @@ Current State:
 Stable!
 
 Installation: 
+
 1. Download "developing" branch.
+
 2. Place into C:\Program Files (x86)\Steam\SteamApps\sourcemods
+
 3. Rename folder to hl3.
+
 4. Restart Steam
+
 5. Launch
+
 6. ???
+
 7. Profit!
