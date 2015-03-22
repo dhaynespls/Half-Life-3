@@ -1,5 +1,5 @@
 //TITLES FOR HALF-LIFE 2
-// Position command $position x y 
+// Position command $position x y
 // x & y are from 0 to 1 to be screen resolution independent
 // -1 means center in each dimension
 // Effect command $effect <effect number>
@@ -110,75 +110,23 @@ $position -1 0.58
 
 CHAPTER1_TITLE
 {
-#HL2_Chapter1_Title
+#hl3_Chapter1_Title
 }
 
 CHAPTER2_TITLE
 {
-#HL2_Chapter2_Title
+#hl3_Chapter2_Title
 }
 
 CHAPTER3_TITLE
 {
-#HL2_Chapter3_Title
+#hl3_Chapter3_Title
 }
 
 CHAPTER4_TITLE
 {
-#HL2_Chapter4_Title
+#hl3_Chapter4_Title
 }
-
-CHAPTER5_TITLE
-{
-#HL2_Chapter5_Title
-}
-
-CHAPTER6_TITLE
-{
-#HL2_Chapter6_Title
-}
-
-CHAPTER7_TITLE
-{
-#HL2_Chapter7_Title
-}
-
-CHAPTER8_TITLE
-{
-#HL2_Chapter8_Title
-}
-
-CHAPTER9_TITLE
-{
-#HL2_Chapter9_Title
-}
-
-CHAPTER9A_TITLE
-{
-#HL2_Chapter9a_Title
-}
-
-
-CHAPTER10_TITLE
-{
-#HL2_Chapter10_Title
-}
-
-CHAPTER11_TITLE
-{
-#HL2_Chapter11_Title
-}
-
-CHAPTER12_TITLE
-{
-#HL2_Chapter12_Title
-}
-
-CHAPTER13_TITLE
-{
-#HL2_Chapter13_Title
-}
-
 
 // In-Game messages
 $position 0.1 0.1
@@ -291,4 +239,3 @@ $holdtime 3.5
 $fadeout 1.5
 $position -1 0.65
 $position -1 0.3
-
