@@ -1,7 +1,7 @@
 "GameInfo"
 {
 	game 		"Half Life 3"
-	title 		"hl3"
+	title 		"Half Life 3"
 	type		singleplayer_only
 	"developer" 		"A3ther Studios"
 	"developer_url" 	"http://steamcommunity.com/groups/A3therStudios"
