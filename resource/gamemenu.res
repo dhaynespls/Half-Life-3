@@ -45,26 +45,21 @@
 		"OnlyWhenVREnabled" "1"
 		"OnlyWhenVRActive" "1"
 	}
+
 	"8"
-	{
-		"label" "#GameUI_GameMenu_Achievements"
-		"command" "OpenAchievementsDialog"
-		"InGameOrder" "50"
-	}
-	"9"
 	{
 		"label" "#GameUI_Controller"
 		"command" "OpenControllerDialog"
 		"InGameOrder" "60"
 		"ConsoleOnly" "1"
 	}
-	"10"
+	"9"
 	{
 		"label" "#GameUI_GameMenu_Options"
 		"command" "OpenOptionsDialog"
 		"InGameOrder" "70"
 	}
-	"11"
+	"10"
 	{
 		"label" "#GameUI_GameMenu_Quit"
 		"command" "Quit"
