@@ -1,2 +1,2 @@
 @include "base.fgd"
-@incluse "halflife2.fgd"
+@include "halflife2.fgd"
