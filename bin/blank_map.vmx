@@ -1,13 +1,10 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6412"
+	"editorbuild" "6440"
 	"mapversion" "5"
 	"formatversion" "100"
 	"prefab" "0"
-}
-visgroups
-{
 }
 viewsettings
 {
@@ -26,82 +23,6 @@ world
 	"detailvbsp" "detail.vbsp"
 	"maxpropscreenwidth" "-1"
 	"skyname" "sky_day01_01"
-	solid
-	{
-		"id" "3"
-		side
-		{
-			"id" "1"
-			"plane" "(16 176 40) (-16 -184 -52) (-320 -192 0)"
-			"material" "NATURE/SNOWFLOOR001A"
-			"uaxis" "[1 0 0 0] -1.45"
-			"vaxis" "[0 -1 0 0] -0.35"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "2"
-			"plane" "(512 -200 -76) (544 320 16) (-320 192 -64)"
-			"material" "NATURE/SNOWFLOOR001A"
-			"uaxis" "[1 0 0 0] -1.45"
-			"vaxis" "[0 -1 0 0] -0.35"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "3"
-			"plane" "(-320 192 0) (-320 -192 0) (-320 -128 0)"
-			"material" "NATURE/SNOWFLOOR001A"
-			"uaxis" "[0 0 0 0] -1.45"
-			"vaxis" "[0 0 0 0] -0.35"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "4"
-			"plane" "(-16 -184 -52) (16 176 40) (544 320 16)"
-			"material" "NATURE/SNOWFLOOR001A"
-			"uaxis" "[0 1 0 0] -1.45"
-			"vaxis" "[0 0 -1 0] -0.35"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "5"
-			"plane" "(16 176 40) (-320 192 0) (-320 192 -64)"
-			"material" "NATURE/SNOWFLOOR001A"
-			"uaxis" "[1 0 0 0] -1.45"
-			"vaxis" "[0 0 -1 0] -0.35"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "6"
-			"plane" "(-320 -192 0) (-16 -184 -52) (512 -200 -76)"
-			"material" "NATURE/SNOWFLOOR001A"
-			"uaxis" "[1 0 0 0] -1.45"
-			"vaxis" "[0 -1 0 0] -0.35"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 243 120"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
 	solid
 	{
 		"id" "651"
@@ -413,7 +334,6 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "742"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -490,7 +410,6 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "742"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -567,7 +486,6 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "742"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -644,7 +562,6 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "742"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -721,7 +638,6 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "742"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -798,7 +714,6 @@ world
 		editor
 		{
 			"color" "220 220 220"
-			"groupid" "742"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -812,20 +727,6 @@ world
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
-	}
-}
-entity
-{
-	"id" "171"
-	"classname" "info_player_start"
-	"angles" "0 0 0"
-	"origin" "93.1207 0.258673 0.999996"
-	editor
-	{
-		"color" "0 255 0"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
 	}
 }
 cameras
