@@ -3,7 +3,8 @@ This is Half Life 3, a HL2 mod built by students who have absoutely no idea what
 in 9 weeks time.
 
 Feature List:
-...
+ - http://prntscr.com/6lp1ik
+ - ...
 
 Current State:
 Stable!
