@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "2"
+	"mapversion" "4"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "4"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -109,7 +109,7 @@ world
 		{
 			"id" "19"
 			"plane" "(-384 -512 128) (0 -512 128) (0 -640 128)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "/EXAMPLE_MODEL_MATERIAL"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -120,7 +120,7 @@ world
 		{
 			"id" "20"
 			"plane" "(-384 -640 -64) (0 -640 -64) (0 -512 -64)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "/EXAMPLE_MODEL_MATERIAL"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -131,7 +131,7 @@ world
 		{
 			"id" "21"
 			"plane" "(-384 -512 128) (-384 -640 128) (-384 -640 -64)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "/EXAMPLE_MODEL_MATERIAL"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -142,7 +142,7 @@ world
 		{
 			"id" "22"
 			"plane" "(0 -512 -64) (0 -640 -64) (0 -640 128)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "/EXAMPLE_MODEL_MATERIAL"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -153,7 +153,7 @@ world
 		{
 			"id" "23"
 			"plane" "(0 -512 128) (-384 -512 128) (-384 -512 -64)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "/EXAMPLE_MODEL_MATERIAL"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -164,7 +164,7 @@ world
 		{
 			"id" "24"
 			"plane" "(0 -640 -64) (-384 -640 -64) (-384 -640 128)"
-			"material" "NATURE/BLENDDIRTGRASS001A"
+			"material" "/EXAMPLE_MODEL_MATERIAL"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -174,6 +174,82 @@ world
 		editor
 		{
 			"color" "0 240 117"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "201"
+		side
+		{
+			"id" "25"
+			"plane" "(-4544 3584 128) (-1792 3584 128) (-1792 896 128)"
+			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE013E"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(-4544 896 -576) (-1792 896 -576) (-1792 3584 -576)"
+			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE013E"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "27"
+			"plane" "(-4544 3584 128) (-4544 896 128) (-4544 896 -576)"
+			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE013E"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "28"
+			"plane" "(-1792 3584 -576) (-1792 896 -576) (-1792 896 128)"
+			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE013E"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "29"
+			"plane" "(-1792 3584 128) (-4544 3584 128) (-4544 3584 -576)"
+			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE013E"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "30"
+			"plane" "(-1792 896 -576) (-4544 896 -576) (-4544 896 128)"
+			"material" "BUILDING_TEMPLATE/BUILDING_TEMPLATE013E"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 125 130"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -189,6 +265,20 @@ entity
 	editor
 	{
 		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "171"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "93.1207 0.258673 0.999996"
+	editor
+	{
+		"color" "0 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 0]"
