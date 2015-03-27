@@ -186,6 +186,7 @@ Writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\blank_
 
 
 
+<<<<<<< HEAD
 materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
 Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\blank_map.vmf
 Brush 3: FloatPlane: bad normal
@@ -280,6 +281,14 @@ Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\source
 fixing up env_cubemap materials on brush sides...
 0...1...2...3...4...5...6...7...8...9...10**** leaked ****
 Entity weapon_crossbow (113.58 97.35 9.12) leaked!
+=======
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\blank_map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+>>>>>>> origin/development
 Processing areas...done (0)
 Building Faces...done (0)
 FixTjuncs...
@@ -296,26 +305,42 @@ Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
 Building Physics collision data...
+<<<<<<< HEAD
 done (0) (4009 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
 Reduced 48 texinfos to 37
 Reduced 9 texdatas to 8 (223 bytes to 182)
 Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\blank_map.bsp
+=======
+done (0) (3558 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 18 texinfos to 17
+Reduced 5 texdatas to 4 (132 bytes to 91)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\blank_map.bsp
+>>>>>>> origin/development
 0 seconds elapsed
 
 
 
 4 threads
+<<<<<<< HEAD
 reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
 reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.prt
 LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.prt
+=======
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.prt
+>>>>>>> origin/development
 
 
 
 [Reading texlights from 'lights.rad']
 [48 texlights parsed from 'lights.rad']
 
+<<<<<<< HEAD
 Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
 No vis information, direct lighting only.
 246 faces
@@ -324,6 +349,16 @@ No vis information, direct lighting only.
 0 Square Feet [0.00 Square Inches]
 0 direct lights
 0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0027 sec>
+=======
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.bsp
+No vis information, direct lighting only.
+128 faces
+167586 square feet [24132384.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+>>>>>>> origin/development
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -332,6 +367,7 @@ Ready to Finish
 Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
 ------------       ---------------  ---------------  -------- 
 models                   1/1024           48/49152    ( 0.1%) 
+<<<<<<< HEAD
 brushes                 10/8192          120/98304    ( 0.1%) 
 brushsides              76/65536         608/524288   ( 0.1%) 
 planes                 106/65536        2120/1310720  ( 0.2%) 
@@ -339,10 +375,20 @@ vertexes               298/65536        3576/786432   ( 0.5%)
 nodes                  166/65536        5312/2097152  ( 0.3%) 
 texinfos                37/12288        2664/884736   ( 0.3%) 
 texdata                  8/2048          256/65536    ( 0.4%) 
+=======
+brushes                  9/8192          108/98304    ( 0.1%) 
+brushsides              57/65536         456/524288   ( 0.1%) 
+planes                  68/65536        1360/1310720  ( 0.1%) 
+vertexes               167/65536        2004/786432   ( 0.3%) 
+nodes                  136/65536        4352/2097152  ( 0.2%) 
+texinfos                17/12288        1224/884736   ( 0.1%) 
+texdata                  4/2048          128/65536    ( 0.2%) 
+>>>>>>> origin/development
 dispinfos                0/0               0/0        ( 0.0%) 
 disp_verts               0/0               0/0        ( 0.0%) 
 disp_tris                0/0               0/0        ( 0.0%) 
 disp_lmsamples           0/0               0/0        ( 0.0%) 
+<<<<<<< HEAD
 faces                  246/65536       13776/3670016  ( 0.4%) 
 hdr faces                0/65536           0/3670016  ( 0.0%) 
 origfaces               49/65536        2744/3670016  ( 0.1%) 
@@ -368,19 +414,249 @@ LDR ambient table      168/65536         672/262144   ( 0.3%)
 HDR ambient table      168/65536         672/262144   ( 0.3%) 
 LDR leaf ambient       147/65536        4116/1835008  ( 0.2%) 
 HDR leaf ambient       168/65536        4704/1835008  ( 0.3%) 
+=======
+faces                  128/65536        7168/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               42/65536        2352/3670016  ( 0.1%) 
+leaves                 138/65536        4416/2097152  ( 0.2%) 
+leaffaces              139/65536         278/131072   ( 0.2%) 
+leafbrushes             42/65536          84/131072   ( 0.1%) 
+areas                    1/256             8/2048     ( 0.4%) 
+surfedges              740/512000       2960/2048000  ( 0.1%) 
+edges                  389/256000       1556/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              2/32768          20/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            42/65536          84/131072   ( 0.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       40316/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         237/393216   ( 0.1%) 
+LDR ambient table      138/65536         552/262144   ( 0.2%) 
+HDR ambient table      138/65536         552/262144   ( 0.2%) 
+LDR leaf ambient       135/65536        3780/1835008  ( 0.2%) 
+HDR leaf ambient       138/65536        3864/1835008  ( 0.2%) 
+>>>>>>> origin/development
 occluders                0/0               0/0        ( 0.0%) 
 occluder polygons        0/0               0/0        ( 0.0%) 
 occluder vert ind        0/0               0/0        ( 0.0%) 
 detail props          [variable]           1/12       ( 8.3%) 
 static props          [variable]           1/12       ( 8.3%) 
 pakfile               [variable]      211554/0        ( 0.0%) 
+<<<<<<< HEAD
 physics               [variable]        4009/4194304  ( 0.1%) 
+=======
+physics               [variable]        3558/4194304  ( 0.1%) 
+>>>>>>> origin/development
 physics terrain       [variable]           2/1048576  ( 0.0%) 
 
 Level flags = 0
 
+<<<<<<< HEAD
 Total triangle count: 644
 Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
+=======
+Total triangle count: 314
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.bsp
+>>>>>>> origin/development
+0 seconds elapsed
+
+
+
+<<<<<<< HEAD
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\blank_map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity weapon_crossbow (113.58 97.35 9.12) leaked!
+=======
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\blank_map.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity info_player_start (93.12 0.26 1.00) leaked!
+>>>>>>> origin/development
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+<<<<<<< HEAD
+done (0) (4009 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 48 texinfos to 37
+Reduced 9 texdatas to 8 (223 bytes to 182)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\blank_map.bsp
+=======
+done (0) (3930 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 21 texinfos to 20
+Reduced 6 texdatas to 5 (156 bytes to 115)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\blank_map.bsp
+>>>>>>> origin/development
+0 seconds elapsed
+
+
+
+4 threads
+<<<<<<< HEAD
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.prt
+=======
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.prt
+>>>>>>> origin/development
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+<<<<<<< HEAD
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
+No vis information, direct lighting only.
+246 faces
+172978 square feet [24908924.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+=======
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.bsp
+No vis information, direct lighting only.
+163 faces
+170883 square feet [24607262.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0004 sec>
+>>>>>>> origin/development
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 10/8192          120/98304    ( 0.1%) 
+<<<<<<< HEAD
+brushsides              76/65536         608/524288   ( 0.1%) 
+planes                 106/65536        2120/1310720  ( 0.2%) 
+vertexes               298/65536        3576/786432   ( 0.5%) 
+nodes                  166/65536        5312/2097152  ( 0.3%) 
+texinfos                37/12288        2664/884736   ( 0.3%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+=======
+brushsides              63/65536         504/524288   ( 0.1%) 
+planes                  70/65536        1400/1310720  ( 0.1%) 
+vertexes               202/65536        2424/786432   ( 0.3%) 
+nodes                  164/65536        5248/2097152  ( 0.3%) 
+texinfos                20/12288        1440/884736   ( 0.2%) 
+texdata                  5/2048          160/65536    ( 0.2%) 
+>>>>>>> origin/development
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+<<<<<<< HEAD
+faces                  246/65536       13776/3670016  ( 0.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               49/65536        2744/3670016  ( 0.1%) 
+leaves                 168/65536        5376/2097152  ( 0.3%) 
+leaffaces              351/65536         702/131072   ( 0.5%) 
+leafbrushes             59/65536         118/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             1334/512000       5336/2048000  ( 0.3%) 
+edges                  726/256000       2904/1024000  ( 0.3%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             10/32768         100/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices           147/65536         294/131072   ( 0.2%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      290616/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         518/393216   ( 0.1%) 
+LDR ambient table      168/65536         672/262144   ( 0.3%) 
+HDR ambient table      168/65536         672/262144   ( 0.3%) 
+LDR leaf ambient       147/65536        4116/1835008  ( 0.2%) 
+HDR leaf ambient       168/65536        4704/1835008  ( 0.3%) 
+=======
+faces                  163/65536        9128/3670016  ( 0.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces               48/65536        2688/3670016  ( 0.1%) 
+leaves                 166/65536        5312/2097152  ( 0.3%) 
+leaffaces              167/65536         334/131072   ( 0.3%) 
+leafbrushes             54/65536         108/131072   ( 0.1%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges              919/512000       3676/2048000  ( 0.2%) 
+edges                  492/256000       1968/1024000  ( 0.2%) 
+LDR worldlights          0/8192            0/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips              1/32768          10/327680   ( 0.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices            24/65536          48/131072   ( 0.0%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]       38344/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]         344/393216   ( 0.1%) 
+LDR ambient table      166/65536         664/262144   ( 0.3%) 
+HDR ambient table      166/65536         664/262144   ( 0.3%) 
+LDR leaf ambient       159/65536        4452/1835008  ( 0.2%) 
+HDR leaf ambient       166/65536        4648/1835008  ( 0.3%) 
+>>>>>>> origin/development
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211554/0        ( 0.0%) 
+<<<<<<< HEAD
+physics               [variable]        4009/4194304  ( 0.1%) 
+=======
+physics               [variable]        3930/4194304  ( 0.1%) 
+>>>>>>> origin/development
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+<<<<<<< HEAD
+Total triangle count: 644
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
+=======
+Total triangle count: 399
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\blank_map.bsp
+>>>>>>> origin/development
 0 seconds elapsed
 
 
@@ -391,7 +667,7 @@ ConVarRef mat_reduceparticles doesn't point to an existing ConVar
 Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
 fixing up env_cubemap materials on brush sides...
 0...1...2...3...4...5...6...7...8...9...10**** leaked ****
-Entity weapon_crossbow (113.58 97.35 9.12) leaked!
+Entity info_player_start (93.12 0.26 1.00) leaked!
 Processing areas...done (0)
 Building Faces...done (0)
 FixTjuncs...
@@ -408,11 +684,11 @@ Finding displacement neighbors...
 Finding lightmap sample positions...
 Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
 Building Physics collision data...
-done (0) (4009 bytes)
+done (0) (6086 bytes)
 Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
-Reduced 48 texinfos to 37
-Reduced 9 texdatas to 8 (223 bytes to 182)
+Reduced 64 texinfos to 48
+Reduced 11 texdatas to 10 (264 bytes to 223)
 Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\blank_map.bsp
 0 seconds elapsed
 
@@ -430,12 +706,13 @@ LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3
 
 Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
 No vis information, direct lighting only.
-246 faces
-172978 square feet [24908924.00 square inches]
+403 faces
+1 degenerate faces
+205980 square feet [29661132.00 square inches]
 0 Displacements
 0 Square Feet [0.00 Square Inches]
-0 direct lights
-0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0028 sec>
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -444,53 +721,53 @@ Ready to Finish
 Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
 ------------       ---------------  ---------------  -------- 
 models                   1/1024           48/49152    ( 0.1%) 
-brushes                 10/8192          120/98304    ( 0.1%) 
-brushsides              76/65536         608/524288   ( 0.1%) 
-planes                 106/65536        2120/1310720  ( 0.2%) 
-vertexes               298/65536        3576/786432   ( 0.5%) 
-nodes                  166/65536        5312/2097152  ( 0.3%) 
-texinfos                37/12288        2664/884736   ( 0.3%) 
-texdata                  8/2048          256/65536    ( 0.4%) 
+brushes                 15/8192          180/98304    ( 0.2%) 
+brushsides             125/65536        1000/524288   ( 0.2%) 
+planes                 196/65536        3920/1310720  ( 0.3%) 
+vertexes               497/65536        5964/786432   ( 0.8%) 
+nodes                  265/65536        8480/2097152  ( 0.4%) 
+texinfos                48/12288        3456/884736   ( 0.4%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
 dispinfos                0/0               0/0        ( 0.0%) 
 disp_verts               0/0               0/0        ( 0.0%) 
 disp_tris                0/0               0/0        ( 0.0%) 
 disp_lmsamples           0/0               0/0        ( 0.0%) 
-faces                  246/65536       13776/3670016  ( 0.4%) 
+faces                  403/65536       22568/3670016  ( 0.6%) 
 hdr faces                0/65536           0/3670016  ( 0.0%) 
-origfaces               49/65536        2744/3670016  ( 0.1%) 
-leaves                 168/65536        5376/2097152  ( 0.3%) 
-leaffaces              351/65536         702/131072   ( 0.5%) 
-leafbrushes             59/65536         118/131072   ( 0.1%) 
+origfaces               80/65536        4480/3670016  ( 0.1%) 
+leaves                 267/65536        8544/2097152  ( 0.4%) 
+leaffaces              497/65536         994/131072   ( 0.8%) 
+leafbrushes            162/65536         324/131072   ( 0.2%) 
 areas                    2/256            16/2048     ( 0.8%) 
-surfedges             1334/512000       5336/2048000  ( 0.3%) 
-edges                  726/256000       2904/1024000  ( 0.3%) 
-LDR worldlights          0/8192            0/720896   ( 0.0%) 
+surfedges             2242/512000       8968/2048000  ( 0.4%) 
+edges                 1244/256000       4976/1024000  ( 0.5%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
 HDR worldlights          0/8192            0/720896   ( 0.0%) 
 leafwaterdata            0/32768           0/393216   ( 0.0%) 
-waterstrips             10/32768         100/327680   ( 0.0%) 
+waterstrips             27/32768         270/327680   ( 0.1%) 
 waterverts               0/65536           0/786432   ( 0.0%) 
-waterindices           147/65536         294/131072   ( 0.2%) 
+waterindices           390/65536         780/131072   ( 0.6%) 
 cubemapsamples           0/1024            0/16384    ( 0.0%) 
 overlays                 0/512             0/180224   ( 0.0%) 
-LDR lightdata         [variable]      290616/0        ( 0.0%) 
+LDR lightdata         [variable]      347712/0        ( 0.0%) 
 HDR lightdata         [variable]           0/0        ( 0.0%) 
 visdata               [variable]           0/16777216 ( 0.0%) 
-entdata               [variable]         518/393216   ( 0.1%) 
-LDR ambient table      168/65536         672/262144   ( 0.3%) 
-HDR ambient table      168/65536         672/262144   ( 0.3%) 
-LDR leaf ambient       147/65536        4116/1835008  ( 0.2%) 
-HDR leaf ambient       168/65536        4704/1835008  ( 0.3%) 
+entdata               [variable]        2438/393216   ( 0.6%) 
+LDR ambient table      267/65536        1068/262144   ( 0.4%) 
+HDR ambient table      267/65536        1068/262144   ( 0.4%) 
+LDR leaf ambient      1982/65536       55496/1835008  ( 3.0%) 
+HDR leaf ambient       267/65536        7476/1835008  ( 0.4%) 
 occluders                0/0               0/0        ( 0.0%) 
 occluder polygons        0/0               0/0        ( 0.0%) 
 occluder vert ind        0/0               0/0        ( 0.0%) 
 detail props          [variable]           1/12       ( 8.3%) 
 static props          [variable]           1/12       ( 8.3%) 
 pakfile               [variable]      211554/0        ( 0.0%) 
-physics               [variable]        4009/4194304  ( 0.1%) 
+physics               [variable]        6086/4194304  ( 0.1%) 
 physics terrain       [variable]           2/1048576  ( 0.0%) 
 
 Level flags = 0
 
-Total triangle count: 644
+Total triangle count: 1112
 Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\blank_map.bsp
-0 seconds elapsed
+1 second elapsed
