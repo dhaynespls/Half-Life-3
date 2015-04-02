@@ -181,8 +181,8 @@
 		"wide"	"102"
 		"tall"	"26"
 		
-		"AuxPowerLowColor" "255 0 0 220"
-		"AuxPowerHighColor" "255 220 0 220"
+		"AuxPowerLowColor" "224 27 27 220"
+		"AuxPowerHighColor" "0 234 255 220"
 		"AuxPowerDisabledAlpha" "70"
 
 		"BarInsetX" "8"
@@ -274,8 +274,8 @@
 		"fieldName" "HudDamageIndicator"
 		"visible" "1"
 		"enabled" "1"
-		"DmgColorLeft" "255 0 0 0"
-		"DmgColorRight" "255 0 0 0"
+		"DmgColorLeft" "224 27 27 0"
+		"DmgColorRight" "224 27 27 0"
 		
 		"dmg_xpos" "30"
 		"dmg_ypos" "100"
@@ -518,7 +518,7 @@
 		"text_ypos"	"8"
 		"text_xgap"	"8"
 		"text_ygap"	"8"
-		"TextColor"	"255 170 0 220"
+		"TextColor"	"0 234 255 220"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -538,7 +538,7 @@
 		"text_ypos"	"8"
 		"text_xgap"	"8"
 		"text_ygap"	"8"
-		"TextColor"	"255 170 0 220"
+		"TextColor"	"0 234 255 220"
 
 		"PaintBackgroundType"	"2"
 	}
