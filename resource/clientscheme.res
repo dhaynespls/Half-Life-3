@@ -23,43 +23,43 @@ Scheme
 	// controls use these to determine their settings
 	BaseSettings
 	{
-		"FgColor"			"0 234 255 100"
+		"FgColor"			"255 220 0 100"
 		"BgColor"			"0 0 0 76"
 
-		"Panel.FgColor"			"0 234 255 100"
+		"Panel.FgColor"			"255 220 0 100"
 		"Panel.BgColor"			"0 0 0 76"
 		
-		"BrightFg"		"0 234 255 255"
+		"BrightFg"		"255 220 0 255"
 
-		"DamagedBg"			"224 27 27 200"
-		"DamagedFg"			"224 27 27 230"
-		"BrightDamagedFg"		"224 27 27 255"
+		"DamagedBg"			"180 0 0 200"
+		"DamagedFg"			"180 0 0 230"
+		"BrightDamagedFg"		"255 0 0 255"
 
 		// weapon selection colors
-		"SelectionNumberFg"		"0 234 255 255"
-		"SelectionTextFg"		"0 234 255 255"
+		"SelectionNumberFg"		"255 220 0 255"
+		"SelectionTextFg"		"255 220 0 255"
 		"SelectionEmptyBoxBg" 	"0 0 0 80"
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 80"
 		
-		"ZoomReticleColor"	"235 30 184 255"
+		"ZoomReticleColor"	"255 220 0 255"
 
 		// HL1-style HUD colors
-		"Yellowish"			"0 234 255 255"
-		"Normal"			"65 237 43 255"
-		"Caution"			"224 27 27 255"
+		"Yellowish"			"255 160 0 255"
+		"Normal"			"255 208 64 255"
+		"Caution"			"255 48 0 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
 		"Main.Title1.X"				"76"
 		"Main.Title1.Y"				"145"
 		"Main.Title1.Y_hidef"		"130"
-		"Main.Title1.Color"	"0 234 255 255"
+		"Main.Title1.Color"	"255 255 255 255"
 
 		// Top-left corner of secondary title e.g. "DEMO" on the main screen
 		"Main.Title2.X"				"76"
 		"Main.Title2.Y"				"190"
 		"Main.Title2.Y_hidef"		"174"
-		"Main.Title2.Color"	"0 234 255 200"
+		"Main.Title2.Color"	"255 255 255 200"
 
 		// Top-left corner of the menu on the main screen
 		"Main.Menu.X"			"53"
@@ -383,8 +383,8 @@ Scheme
 				"tall"		"32"	[$WIN32]
 				"tall"		"38"	[$X360]
 				"weight"	"0"
-				"blur"		"8"
-				"scanlines" "4"
+				"blur"		"4"
+				"scanlines" "2"
 				"antialias" "1"
 				"additive"	"1"
 				"custom"	"1"
