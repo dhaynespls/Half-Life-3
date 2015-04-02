@@ -631,7 +631,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "HL2EP2"
+				"name"  "times_new_roman"
 				"tall"			"34"
 				"tall_hidef"	"48"
 				"weight" "0"
@@ -793,7 +793,8 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2crosshairs.ttf"
-		"3"	"resource/HL2EP2.ttf"		
+		"3"	    "resource/HL2EP2.ttf"
+		"4"		"resource/times_new_roman.ttf"
 	}
 
 }
