@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/ledgegrab/punk_hands3"
+	"$model" 1
+	"$translucent" 1
+}

@@ -1,0 +1,29 @@
+"Refract"
+{
+ 	"Refract_dx80"
+	{
+		"$fallbackmaterial" "models/player/predator_dx7"
+	}
+
+	"$model" 1
+	"$dudvmap" "dev/water_dudv"
+	"$normalmap" "dev/water_normal"
+	"$refractamount" "0"
+
+	"$surfaceprop" "flesh"
+	"$bumpframe" "0"
+
+	"Proxies"
+	{
+		"BlurSuit"
+		{
+			"resultVar" "$refractamount"
+		}
+		"AnimatedTexture"
+		{
+			"animatedtexturevar" "$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 30.00
+		}
+	}
+}

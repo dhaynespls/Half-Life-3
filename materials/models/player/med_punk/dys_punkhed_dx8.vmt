@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models\player\med_punk\dys_punkhed_new"
+	"$selfillum" 1
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$envmapmask" "models\player\med_punk\dys_punkhed_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.5 0.4 0.4]"
+	"$envmapcontrast" 0.5
+}

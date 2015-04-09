@@ -1,0 +1,21 @@
+"SDK_Thermal"
+{
+	"$thermTexture" "models/player/med_corp/c_trooper_medium_body_therm"
+
+	"Thermal_dx80"
+	{
+		"$fallbackmaterial" "Thermal_dx8"
+	}
+	
+	"$model" 1
+
+	"$heat" 1
+
+	"Proxies"
+	{
+		"Heat"
+		{
+			"resultVar" "$heat"
+		}
+	}
+}

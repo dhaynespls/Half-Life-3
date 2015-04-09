@@ -1,0 +1,7 @@
+"vertexlitgeneric" 
+{       
+	"$baseTexture" "models/player/med_punk/dys_punkhedshot"
+	"$translucent" 1
+	"$model" 1
+	"$nodecal" 1
+}
