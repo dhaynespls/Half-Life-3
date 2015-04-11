@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{        
+	"$basetexture" "models/player/heavy_corp/corp_heavy_body"     
+	"$surfaceprop" "metal"	
+	"$model" 1  
+	"$selfillum" 1
+	"$envmapmask" "models/player/heavy_corp/corp_heavy_body_spec"     
+	"$envmap" "env_cubemap"	
+	"$envmaptint" "[0.4 0.4 0.5]"
+	"$envmapcontrast" 0.5
+}

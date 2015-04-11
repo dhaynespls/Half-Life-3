@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/med_corp/c_trooper_medium_extras"
+	"$surfaceprop" "metal"
+	"$selfillum" 1
+	"$model" 1
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models/player/med_corp/c_trooper_medium_extras_spec"
+	"$envmaptint" "[0.4 0.4 0.5]"
+	"$envmapcontrast" 0.5
+}

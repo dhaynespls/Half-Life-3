@@ -1,0 +1,12 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/light_corp/corp_Bodya"
+	"$selfillum" 1
+	"$surfaceprop" "metal"
+	"$model" 1
+	"$envmapmask" "models/player/light_corp/corp_body_spec"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.4 0.4 0.5]"
+	"$envmapcontrast" 0.5	
+	
+}

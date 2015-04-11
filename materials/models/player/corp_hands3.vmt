@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/corp_hands3"
+	"$model" 1
+	"$bumpmap" "models/player/corp_hands3_normal"
+}

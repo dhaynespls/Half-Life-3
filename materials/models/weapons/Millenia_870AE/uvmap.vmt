@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+"$baseTexture" "models\weapons\Millenia_870AE\uvmap"
+"$bumpmap"     "models\weapons\Millenia_870AE\uvmap_n"
+"$normalmapalphaenvmapmask" "1"
+"$phong" 		"1"
+"$phongexponent" 	"30"
+"$phongboost" "0.8"
+"$phongfresnelranges" "[2 5 9]"
+"$phongalbedotint" "1"
+}
+
+

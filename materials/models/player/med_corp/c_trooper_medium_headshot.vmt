@@ -1,0 +1,7 @@
+"vertexlitgeneric" 
+{       
+	"$baseTexture" "models/player/med_corp/c_trooper_medium_headshot"
+	"$translucent" 1
+	"$model" 1
+	"$nodecal" 1
+}

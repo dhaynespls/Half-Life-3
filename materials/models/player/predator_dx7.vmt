@@ -1,0 +1,27 @@
+"UnlitGeneric"
+{
+	"$model" "1"
+	"$basetexture" "models/player/predator"
+	"$additive" "1"
+	"$surfaceprop" "flesh"
+
+	// The water generally looks better if we scale it down a bit
+	"$texscale" "0.5"
+	"$bluramt" "0"
+	"$blurscale" "0.1"
+
+	"Proxies"
+	{
+		"BlurSuit"
+		{
+			"resultVar" "$bluramt"
+		}
+		"Multiply"
+		{
+			"srcvar1"	"$bluramt"
+			"srcvar2"	"$blurscale"
+			"resultvar"	"$alpha"
+		}
+
+	}
+}

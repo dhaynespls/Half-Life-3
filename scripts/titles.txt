@@ -1,5 +1,5 @@
 //TITLES FOR HALF-LIFE 2
-// Position command $position x y 
+// Position command $position x y
 // x & y are from 0 to 1 to be screen resolution independent
 // -1 means center in each dimension
 // Effect command $effect <effect number>
@@ -120,47 +120,12 @@ $position -1 0.58
 
 EP2_CHAPTER1_TITLE
 {
-#ep2_Chapter1_Title
+"Chapter 1"
 }
 
 EP2_CHAPTER2_TITLE
 {
-#ep2_Chapter2_Title
-}
-
-EP2_CHAPTER3_TITLE
-{
-#ep2_Chapter3_Title
-}
-
-EP2_CHAPTER4_TITLE
-{
-#ep2_Chapter4_Title
-}
-
-EP2_CHAPTER5_TITLE
-{
-#ep2_Chapter5_Title
-}
-
-EP2_CHAPTER6_TITLE
-{
-#ep2_Chapter6_Title
-}
-
-EP2_CHAPTER7_TITLE
-{
-#ep2_Chapter7_Title
-}
-
-EP2_CHAPTER8_TITLE
-{
-#ep2_Chapter8_Title
-}
-
-EP2_CHAPTER9_TITLE
-{
-#ep2_Chapter9_Title
+"Chapter 2"
 }
 
 
@@ -275,4 +240,3 @@ $holdtime 3.5
 $fadeout 1.5
 $position -1 0.65
 $position -1 0.3
-

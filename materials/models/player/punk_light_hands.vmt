@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/corp_light_hands"
+	"$model" 1
+	"$selfillum" 1
+	"$bumpmap" "models/player/corp_light_hands_normal"
+}
