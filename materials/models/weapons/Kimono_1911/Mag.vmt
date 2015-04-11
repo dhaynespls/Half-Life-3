@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\Kimono_1911\Mag_SNAKE"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\Kimono_1911\Mag_SNAKE_ref"
+}

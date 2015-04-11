@@ -1,0 +1,7 @@
+"vertexlitgeneric" 
+{       
+	"$baseTexture" "models/player/light_corp/Corp_Headshot"
+	"$translucent" 1
+	"$model" 1
+	"$nodecal" 1
+}

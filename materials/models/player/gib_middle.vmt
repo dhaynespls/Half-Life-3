@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/player/gib_middle"
+	"$model" 1
+}

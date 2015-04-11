@@ -1,0 +1,19 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/heavy_punk/body"
+	"$bumpmap" "models/player/heavy_punk/body_normal"
+	"$selfillum" 1
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/heavy_punk/body_exp"
+	"$phongboost" "8"	
+	"$phongfresnelranges"	"[0.5 1 3]"
+
+ 	"vertexlitgeneric_dx8"
+	{
+		"$fallbackmaterial" "models/player/heavy_punk/body_dx8"
+	}
+	
+}

@@ -1,0 +1,12 @@
+"SDK_Thermal"
+{
+	"$thermTexture" "therm"
+
+	"Thermal_dx80"
+	{
+		"$fallbackmaterial" "Thermal_dx8"
+	}
+
+	"$model" 1
+	"$heat" 1
+}

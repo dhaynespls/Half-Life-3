@@ -1,0 +1,18 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "models/player/light_punk/dys_punkbody_light02"
+	"$bumpmap" "models/player/light_punk/dys_punkbody_light02_normal"
+	"$surfaceprop" "metal"
+	"$model" 1
+
+	"$phong" "1"
+	"$phongexponenttexture" "models/player/light_punk/dys_punkbody_light02_exp"
+	"$phongboost" "6.5"	
+	"$phongfresnelranges"	"[0.5 1 3]"
+
+ 	"vertexlitgeneric_dx8"
+	{
+		"$models/player/light_punk/dys_punkbody_light02_dx8"
+	}
+	
+}

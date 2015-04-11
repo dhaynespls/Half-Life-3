@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$baseTexture" 		"models/nanosuit_strength/nanosuit_helm_mask"
+	"$bumpmap" "models/nanosuit_strength/nanosuit_helm _mask_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[ .2 .2 .2 ]"
+	"$envmapconstrast" "1"
+	"$phong" "1"
+	"$phongboost"   "10"
+	"$phongfresnelranges" "[0.2 .5 10]"
+	"$phongexponenttexture"	"models/nanosuit_strength/nanosuit_helm_mask_exponent"
+	"$phongalbedotint" "1"
+	"$model" "1"
+	"$normalmapalphaenvmapmask" "1"
+	"$halflambert" "1"
+	"$selfillum" "1"
+	"$selfIllumFresnel" "1"
+	"$selfIllumFresnelMinMaxExp" "[52.1 52.2 55]"
+	"$selfillumtint" "[0.05 0 0]"
+// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "5"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" "2"										// Boost for ambient cube component of rim lighting
+}

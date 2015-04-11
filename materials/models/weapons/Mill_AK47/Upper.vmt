@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\Mill_AK47\Upper"
+	"$bumpmap" 	"models\weapons\Mill_AK47\Upper_Normal"
+	"$halflambert" 	"1"
+ 	"$phong" "1"
+	"$phongexponent" "25"
+	"$phongboost" "1"
+	"$phongfresnelranges"	"[1 6 12]"
+	"$phongalbedotint" "1"
+}
+

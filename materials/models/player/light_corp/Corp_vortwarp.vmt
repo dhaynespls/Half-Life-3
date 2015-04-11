@@ -1,0 +1,18 @@
+"VortWarp"
+{
+	"$baseTexture" "models/player/light_corp/Corp_Bodya"
+	"$flowmap" "models/player/light_corp/vortigaunt_flow"
+	"$entityorigin" ""
+	"$warpparam" "1.0"
+
+	"Proxies"
+	{
+		"EntityOrigin"
+		{
+		}
+		"BlurSuit"
+		{
+			"resultVar" "$warpparam"
+		}
+	}
+}
