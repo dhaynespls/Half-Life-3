@@ -4313,3 +4313,1449 @@ Level flags = 0
 Total triangle count: 2762
 Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
 5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity weapon_frag (-160.74 -105.61 -23.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (62011 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 503 texinfos to 387
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1101 faces
+962006 square feet [138528864.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                189/8192         2268/98304    ( 2.3%) 
+brushsides            1385/65536       11080/524288   ( 2.1%) 
+planes                1082/65536       21640/1310720  ( 1.7%) 
+vertexes              1638/65536       19656/786432   ( 2.5%) 
+nodes                  462/65536       14784/2097152  ( 0.7%) 
+texinfos               387/12288       27864/884736   ( 3.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1101/65536       61656/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              682/65536       38192/3670016  ( 1.0%) 
+leaves                 468/65536       14976/2097152  ( 0.7%) 
+leaffaces             1614/65536        3228/131072   ( 2.5%) 
+leafbrushes            465/65536         930/131072   ( 0.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7603/512000      30412/2048000  ( 1.5%) 
+edges                 4670/256000      18680/1024000  ( 1.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            110/32768        1100/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1665/65536        3330/131072   ( 2.5%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1377336/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       11488/393216   ( 2.9%) 
+LDR ambient table      468/65536        1872/262144   ( 0.7%) 
+HDR ambient table      468/65536        1872/262144   ( 0.7%) 
+LDR leaf ambient      2738/65536       76664/1835008  ( 4.2%) 
+HDR leaf ambient       468/65536       13104/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/870      ( 0.1%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       62011/4194304  ( 1.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2762
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity weapon_frag (-160.74 -105.61 -23.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (62011 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 503 texinfos to 387
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1085 faces
+882361 square feet [127060080.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0043 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   5/1024          240/49152    ( 0.5%) 
+brushes                189/8192         2268/98304    ( 2.3%) 
+brushsides            1385/65536       11080/524288   ( 2.1%) 
+planes                1082/65536       21640/1310720  ( 1.7%) 
+vertexes              1632/65536       19584/786432   ( 2.5%) 
+nodes                  452/65536       14464/2097152  ( 0.7%) 
+texinfos               387/12288       27864/884736   ( 3.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1085/65536       60760/3670016  ( 1.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              684/65536       38304/3670016  ( 1.0%) 
+leaves                 458/65536       14656/2097152  ( 0.7%) 
+leaffaces             1430/65536        2860/131072   ( 2.2%) 
+leafbrushes            361/65536         722/131072   ( 0.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             7573/512000      30292/2048000  ( 1.5%) 
+edges                 4655/256000      18620/1024000  ( 1.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            111/32768        1110/327680   ( 0.3%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1728/65536        3456/131072   ( 2.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1378420/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       11488/393216   ( 2.9%) 
+LDR ambient table      458/65536        1832/262144   ( 0.7%) 
+HDR ambient table      458/65536        1832/262144   ( 0.7%) 
+LDR leaf ambient      2615/65536       73220/1835008  ( 4.0%) 
+HDR leaf ambient       458/65536       12824/1835008  ( 0.7%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/872      ( 0.1%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       62011/4194304  ( 1.5%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 2756
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+4 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity weapon_frag (-160.74 -105.61 -23.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 711 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1566 faces
+4 degenerate faces
+965910 square feet [139091104.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0046 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1464/65536       29280/1310720  ( 2.2%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1566/65536       87696/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1029/65536       57624/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2154/65536        4308/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11675/512000      46700/2048000  ( 2.3%) 
+edges                 7165/256000      28660/1024000  ( 2.8%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442728/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       11198/393216   ( 2.8%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3033/65536       84924/1835008  ( 4.6%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4548
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity weapon_frag (-160.74 -105.61 -23.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+15 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0049 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         15/8192         1320/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12852/393216   ( 3.3%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3037/65536       85036/1835008  ( 4.6%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity weapon_frag (-160.74 -105.61 -23.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0051 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13271/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3057/65536       85596/1835008  ( 4.7%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+17 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0048 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13558/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3057/65536       85596/1835008  ( 4.7%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+5 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13274/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3131/65536       87668/1835008  ( 4.8%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0044 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13274/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3131/65536       87668/1835008  ( 4.8%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0044 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13273/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3131/65536       87668/1835008  ( 4.8%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0053 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13272/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3131/65536       87668/1835008  ( 4.8%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0044 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13270/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3174/65536       88872/1835008  ( 4.8%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+6 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity light_environment (-976.00 -2008.00 1015.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 24 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (93959 bytes)
+Error! prop_static using model "models/props_interiors/furniture_lamp01a.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_interiors/furniture_lamp01a.mdl"!
+Error! prop_static using model "models/props_wasteland/kitchen_counter001d.mdl", which must be used on a dynamic entity (i.e. prop_physics). Deleted.
+Error loading studio model "models/props_wasteland/kitchen_counter001d.mdl"!
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 718 texinfos to 502
+Reduced 21 texdatas to 18 (541 bytes to 408)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+No vis information, direct lighting only.
+1567 faces
+4 degenerate faces
+965911 square feet [139091296.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0045 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   6/1024          288/49152    ( 0.6%) 
+brushes                291/8192         3492/98304    ( 3.6%) 
+brushsides            2073/65536       16584/524288   ( 3.2%) 
+planes                1494/65536       29880/1310720  ( 2.3%) 
+vertexes              2432/65536       29184/786432   ( 3.7%) 
+nodes                  539/65536       17248/2097152  ( 0.8%) 
+texinfos               502/12288       36144/884736   ( 4.1%) 
+texdata                 18/2048          576/65536    ( 0.9%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1567/65536       87752/3670016  ( 2.4%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1030/65536       57680/3670016  ( 1.6%) 
+leaves                 546/65536       17472/2097152  ( 0.8%) 
+leaffaces             2156/65536        4312/131072   ( 3.3%) 
+leafbrushes            622/65536        1244/131072   ( 0.9%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            11683/512000      46732/2048000  ( 2.3%) 
+edges                 7168/256000      28672/1024000  ( 2.8%) 
+LDR worldlights         16/8192         1408/720896   ( 0.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            150/32768        1500/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          3360/65536        6720/131072   ( 5.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1442784/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       13270/393216   ( 3.4%) 
+LDR ambient table      546/65536        2184/262144   ( 0.8%) 
+HDR ambient table      546/65536        2184/262144   ( 0.8%) 
+LDR leaf ambient      3168/65536       88704/1835008  ( 4.8%) 
+HDR leaf ambient       546/65536       15288/1835008  ( 0.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/406      ( 0.2%) 
+pakfile               [variable]      212163/0        ( 0.0%) 
+physics               [variable]       93959/4194304  ( 2.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4550
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_port.bsp
+6 seconds elapsed
