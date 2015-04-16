@@ -42,11 +42,11 @@ Scheme
 		"SelectionBoxBg" 		"0 0 0 80"
 		"SelectionSelectedBoxBg" "0 0 0 80"
 		
-		"ZoomReticleColor"	"235 30 184 255"
+		"ZoomReticleColor"	"0 234 255 255"
 
 		// HL1-style HUD colors
 		"Yellowish"			"0 234 255 255"
-		"Normal"			"65 237 43 255"
+		"Normal"			"0 234 255 255"
 		"Caution"			"224 27 27 255"
 
 		// Top-left corner of the "Half-Life 2" on the main screen
