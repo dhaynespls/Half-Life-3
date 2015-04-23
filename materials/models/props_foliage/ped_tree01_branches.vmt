@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture"	"models\props_foliage\ped_tree01_branches"
+	//"$translucent" "1"
+	"$alphatest" 1
+	"$model" 1
+	"$nodecal" 1
+	"$nocull" 1
+}

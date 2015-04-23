@@ -1,0 +1,5 @@
+"unlitgeneric"
+{
+	// original shader: basetimeslightmap
+	$model 1 	"$basetexture" "xeno/crys_1b"
+}

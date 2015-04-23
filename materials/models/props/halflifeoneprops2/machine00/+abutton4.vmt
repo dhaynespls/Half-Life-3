@@ -1,0 +1,17 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmap
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$basetexture" "halflife/+abutton4"
+	"$surfaceprop" "glass"
+	"$selfillum" 1
+	"proxies"
+	{
+		"toggletexture"
+		{
+			"toggletexturevar" "$basetexture"
+			"toggletextureframenumvar" "$frame"
+		}
+	}
+}

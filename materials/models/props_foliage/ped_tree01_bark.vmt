@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\props_foliage/ped_tree01_bark"
+	"$model" 1
+	"$nodecal" 1
+	"$bumpmap" "models\props_foliage/ped_tree01_bark_normal"
+
+}

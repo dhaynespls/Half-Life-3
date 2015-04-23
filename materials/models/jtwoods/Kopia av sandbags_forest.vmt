@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\jtwoods\sandbags_forest"
+	"$model" 1 
+	"$surfaceprop" "sand"
+}

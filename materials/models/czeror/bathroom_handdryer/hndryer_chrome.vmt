@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/czeror/bathroom_handdryer/hndryer_chrome"
+	"$envmap" "env_cubemap"
+}
