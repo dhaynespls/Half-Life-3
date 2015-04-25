@@ -1,0 +1,9 @@
+"unlitgeneric"
+{
+	// original shader: basetimeslightmapselfillum
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	$model 1 	"$basetexture" "halflife/emerglight"
+//	"$selfillum" 1
+	"$surfaceprop" "glass"
+}

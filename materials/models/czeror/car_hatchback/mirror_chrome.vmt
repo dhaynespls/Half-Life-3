@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/czeror/car_hatchback/mirror_chrome"
+	"$envmap" "env_cubemap"
+}

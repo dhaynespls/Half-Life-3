@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmapselfillum
+	"$detail" "detail/detail_noise1"
+	"$detailscale" 2.5
+	"$basetexture" "halflife/lab1_comp3"
+	"$selfillum" 1
+	"$surfaceprop" "computer"
+}

@@ -1,0 +1,7 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmapalphablend
+	"$translucent" 1
+	"$basetexture" "xeno/{xeno_16"
+	"$surfaceprop" "flesh"
+}

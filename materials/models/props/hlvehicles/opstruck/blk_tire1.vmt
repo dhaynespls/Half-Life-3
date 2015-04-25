@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "halflifeprops/vehicles/blk_tire1"
+	"$surfaceprop" "metal"
+}

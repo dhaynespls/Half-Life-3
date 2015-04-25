@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/czeror/helicopter_green/greenexv01"
+	"$alphatest" "1"
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflifeprops/vendingmachine/cs_3vending3"
+	"$surfaceprop" "Glass"
+}

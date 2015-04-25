@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\jtwoods\woods_treetrunk4"
+	"$model" 1 
+	"$surfaceprop" "wood"
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "halflifeprops/vehicles/car01_back"
+	"$surfaceprop" "Metal"
+}
