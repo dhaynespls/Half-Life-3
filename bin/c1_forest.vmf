@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6440"
-	"mapversion" "90"
+	"mapversion" "91"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "90"
+	"mapversion" "332"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -1996,6 +1996,82 @@ world
 		editor
 		{
 			"color" "0 220 193"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "8243"
+		side
+		{
+			"id" "3786"
+			"plane" "(-3151 427 1128) (-3151 4403 1128) (-2404 4403 1128)"
+			"material" "NATURE/BLENDGRASSGRASS001A"
+			"uaxis" "[1 0 0 348] 0.25"
+			"vaxis" "[0 -1 0 144] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3785"
+			"plane" "(-3151 4403 831) (-3151 427 831) (-2404 427 831)"
+			"material" "NATURE/CLIFF03A"
+			"uaxis" "[1 0 0 860] 0.25"
+			"vaxis" "[0 -1 0 144.002] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3784"
+			"plane" "(-3151 427 831) (-3151 4403 831) (-3151 4403 1128)"
+			"material" "NATURE/CLIFF03A"
+			"uaxis" "[0 1 0 -144] 0.25"
+			"vaxis" "[0 0 -1 716] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3783"
+			"plane" "(-2404 4403 831) (-2404 427 831) (-2404 427 1128)"
+			"material" "NATURE/CLIFF03A"
+			"uaxis" "[0 1 0 -144] 0.25"
+			"vaxis" "[0 0 -1 716] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3782"
+			"plane" "(-3151 4403 831) (-2404 4403 831) (-2404 4403 1128)"
+			"material" "NATURE/CLIFF03A"
+			"uaxis" "[1 0 0 860] 0.25"
+			"vaxis" "[0 0 -1 716] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3781"
+			"plane" "(-2404 427 831) (-3151 427 831) (-3151 427 1128)"
+			"material" "NATURE/CLIFF03A"
+			"uaxis" "[1 0 0 860] 0.25"
+			"vaxis" "[0 0 -1 716] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 183 204"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
