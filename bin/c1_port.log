@@ -54635,3 +54635,2198 @@ Level flags = 0
 Total triangle count: 14552
 Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
 1 minute, 35 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendgrassgrass001a_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 196 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (150556 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1773 texinfos to 807
+Reduced 34 texdatas to 27 (935 bytes to 620)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 916 portalclusters
+2573 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6216 visible clusters (0.79%)
+Total clusters visible: 787810
+Average clusters visible: 860
+Building PAS...
+Average clusters audible: 916
+visdatasize:217816  compressed from 219840
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5880 faces
+5 degenerate faces
+5846218 square feet [841855424.00 square inches]
+144 Displacements
+887873 Square Feet [127853832.00 Square Inches]
+5875 patches before subdivision
+244091 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17068242, max 1683
+transfer lists: 130.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131078, 96903, 51542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25288, 18069, 9039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2245, 1649, 951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(499, 352, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.2350 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                625/8192         7500/98304    ( 7.6%) 
+brushsides            5605/65536       44840/524288   ( 8.6%) 
+planes                6226/65536      124520/1310720  ( 9.5%) 
+vertexes              7822/65536       93864/786432   (11.9%) 
+nodes                 2107/65536       67424/2097152  ( 3.2%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              144/0           25344/0        ( 0.0%) 
+disp_verts            8304/0          166080/0        ( 0.0%) 
+disp_tris            12672/0           25344/0        ( 0.0%) 
+disp_lmsamples     2266256/0         2266256/0        ( 0.0%) 
+faces                 5880/65536      329280/3670016  ( 9.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1680/65536       94080/3670016  ( 2.6%) 
+leaves                2117/65536       67744/2097152  ( 3.2%) 
+leaffaces             7694/65536       15388/131072   (11.7%) 
+leafbrushes           3050/65536        6100/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32758/512000     131032/2048000  ( 6.4%) 
+edges                18134/256000      72536/1024000  ( 7.1%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            367/32768        3670/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6771/65536       13542/131072   (10.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18672976/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      217816/16777216 ( 1.3%) 
+entdata               [variable]      370259/393216   (94.2%) VERY FULL!
+LDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+HDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+LDR leaf ambient     11514/65536      322392/1835008  (17.6%) 
+HDR leaf ambient      2117/65536       59276/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/463360   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214556/0        ( 0.0%) 
+physics               [variable]      150556/4194304  ( 3.6%) 
+physics terrain       [variable]       24658/1048576  ( 2.4%) 
+
+Level flags = 0
+
+Total triangle count: 14552
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 47 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendgrassgrass001a_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 196 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (150556 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1773 texinfos to 807
+Reduced 34 texdatas to 27 (935 bytes to 620)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 916 portalclusters
+2573 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6216 visible clusters (0.79%)
+Total clusters visible: 787810
+Average clusters visible: 860
+Building PAS...
+Average clusters audible: 916
+visdatasize:217816  compressed from 219840
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5880 faces
+5 degenerate faces
+5846218 square feet [841855424.00 square inches]
+144 Displacements
+887873 Square Feet [127853832.00 Square Inches]
+5875 patches before subdivision
+244091 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17068242, max 1683
+transfer lists: 130.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131078, 96903, 51542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25288, 18069, 9039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2245, 1649, 951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(499, 352, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1432 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                625/8192         7500/98304    ( 7.6%) 
+brushsides            5605/65536       44840/524288   ( 8.6%) 
+planes                6226/65536      124520/1310720  ( 9.5%) 
+vertexes              7822/65536       93864/786432   (11.9%) 
+nodes                 2107/65536       67424/2097152  ( 3.2%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              144/0           25344/0        ( 0.0%) 
+disp_verts            8304/0          166080/0        ( 0.0%) 
+disp_tris            12672/0           25344/0        ( 0.0%) 
+disp_lmsamples     2266256/0         2266256/0        ( 0.0%) 
+faces                 5880/65536      329280/3670016  ( 9.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1680/65536       94080/3670016  ( 2.6%) 
+leaves                2117/65536       67744/2097152  ( 3.2%) 
+leaffaces             7694/65536       15388/131072   (11.7%) 
+leafbrushes           3050/65536        6100/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32758/512000     131032/2048000  ( 6.4%) 
+edges                18134/256000      72536/1024000  ( 7.1%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            367/32768        3670/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6771/65536       13542/131072   (10.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18672976/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      217816/16777216 ( 1.3%) 
+entdata               [variable]      370259/393216   (94.2%) VERY FULL!
+LDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+HDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+LDR leaf ambient     11514/65536      322392/1835008  (17.6%) 
+HDR leaf ambient      2117/65536       59276/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/463360   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214556/0        ( 0.0%) 
+physics               [variable]      150556/4194304  ( 3.6%) 
+physics terrain       [variable]       24658/1048576  ( 2.4%) 
+
+Level flags = 0
+
+Total triangle count: 14552
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 37 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendgrassgrass001a_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 196 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (150556 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1773 texinfos to 807
+Reduced 34 texdatas to 27 (935 bytes to 620)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 916 portalclusters
+2573 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6216 visible clusters (0.79%)
+Total clusters visible: 787810
+Average clusters visible: 860
+Building PAS...
+Average clusters audible: 916
+visdatasize:217816  compressed from 219840
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5880 faces
+5 degenerate faces
+5846218 square feet [841855424.00 square inches]
+144 Displacements
+887873 Square Feet [127853832.00 Square Inches]
+5875 patches before subdivision
+244091 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17068242, max 1683
+transfer lists: 130.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131078, 96903, 51542)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25288, 18069, 9039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2245, 1649, 951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(499, 352, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1376 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                625/8192         7500/98304    ( 7.6%) 
+brushsides            5605/65536       44840/524288   ( 8.6%) 
+planes                6226/65536      124520/1310720  ( 9.5%) 
+vertexes              7822/65536       93864/786432   (11.9%) 
+nodes                 2107/65536       67424/2097152  ( 3.2%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              144/0           25344/0        ( 0.0%) 
+disp_verts            8304/0          166080/0        ( 0.0%) 
+disp_tris            12672/0           25344/0        ( 0.0%) 
+disp_lmsamples     2266256/0         2266256/0        ( 0.0%) 
+faces                 5880/65536      329280/3670016  ( 9.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1680/65536       94080/3670016  ( 2.6%) 
+leaves                2117/65536       67744/2097152  ( 3.2%) 
+leaffaces             7694/65536       15388/131072   (11.7%) 
+leafbrushes           3050/65536        6100/131072   ( 4.7%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32758/512000     131032/2048000  ( 6.4%) 
+edges                18134/256000      72536/1024000  ( 7.1%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            367/32768        3670/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6771/65536       13542/131072   (10.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18672976/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      217816/16777216 ( 1.3%) 
+entdata               [variable]      370259/393216   (94.2%) VERY FULL!
+LDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+HDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+LDR leaf ambient     11514/65536      322392/1835008  (17.6%) 
+HDR leaf ambient      2117/65536       59276/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/463360   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214556/0        ( 0.0%) 
+physics               [variable]      150556/4194304  ( 3.6%) 
+physics terrain       [variable]       24658/1048576  ( 2.4%) 
+
+Level flags = 0
+
+Total triangle count: 14552
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 40 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendgrassgrass001a_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (150556 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1773 texinfos to 807
+Reduced 34 texdatas to 27 (935 bytes to 620)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 916 portalclusters
+2573 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 6216 visible clusters (0.79%)
+Total clusters visible: 787810
+Average clusters visible: 860
+Building PAS...
+Average clusters audible: 916
+visdatasize:217816  compressed from 219840
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5881 faces
+5 degenerate faces
+5846217 square feet [841855296.00 square inches]
+144 Displacements
+887873 Square Feet [127853832.00 Square Inches]
+5876 patches before subdivision
+244092 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 17063357, max 1683
+transfer lists: 130.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(131089, 96910, 51541)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25296, 18075, 9039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2246, 1649, 951)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(499, 352, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1321 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                625/8192         7500/98304    ( 7.6%) 
+brushsides            5605/65536       44840/524288   ( 8.6%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7823/65536       93876/786432   (11.9%) 
+nodes                 2107/65536       67424/2097152  ( 3.2%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              144/0           25344/0        ( 0.0%) 
+disp_verts            8304/0          166080/0        ( 0.0%) 
+disp_tris            12672/0           25344/0        ( 0.0%) 
+disp_lmsamples     2266256/0         2266256/0        ( 0.0%) 
+faces                 5881/65536      329336/3670016  ( 9.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1680/65536       94080/3670016  ( 2.6%) 
+leaves                2117/65536       67744/2097152  ( 3.2%) 
+leaffaces             7681/65536       15362/131072   (11.7%) 
+leafbrushes           3046/65536        6092/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            32763/512000     131052/2048000  ( 6.4%) 
+edges                18140/256000      72560/1024000  ( 7.1%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            367/32768        3670/327680   ( 1.1%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6768/65536       13536/131072   (10.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18670564/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      217816/16777216 ( 1.3%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+HDR ambient table     2117/65536        8468/262144   ( 3.2%) 
+LDR leaf ambient     11509/65536      322252/1835008  (17.6%) 
+HDR leaf ambient      2117/65536       59276/1835008  ( 3.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/463360   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214556/0        ( 0.0%) 
+physics               [variable]      150556/4194304  ( 3.6%) 
+physics terrain       [variable]       24658/1048576  ( 2.4%) 
+
+Level flags = 0
+
+Total triangle count: 14555
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 32 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 847 portalclusters
+2329 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5305 visible clusters (0.79%)
+Total clusters visible: 672456
+Average clusters visible: 793
+Building PAS...
+Average clusters audible: 847
+visdatasize:186180  compressed from 189728
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5652 faces
+5 degenerate faces
+5733344 square feet [825601600.00 square inches]
+162 Displacements
+1030494 Square Feet [148391200.00 Square Inches]
+5647 patches before subdivision
+235099 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15036568, max 1612
+transfer lists: 114.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127711, 94658, 50999)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25430, 18163, 9068)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2234, 1643, 950)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(500, 353, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1509 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7529/65536       90348/786432   (11.5%) 
+nodes                 1994/65536       63808/2097152  ( 3.0%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5652/65536      316512/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1691/65536       94696/3670016  ( 2.6%) 
+leaves                2004/65536       64128/2097152  ( 3.1%) 
+leaffaces             7384/65536       14768/131072   (11.3%) 
+leafbrushes           2970/65536        5940/131072   ( 4.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31663/512000     126652/2048000  ( 6.2%) 
+edges                17573/256000      70292/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6180/65536       12360/131072   ( 9.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18181056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      186180/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2004/65536        8016/262144   ( 3.1%) 
+HDR ambient table     2004/65536        8016/262144   ( 3.1%) 
+LDR leaf ambient     10598/65536      296744/1835008  (16.2%) 
+HDR leaf ambient      2004/65536       56112/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       25654/1048576  ( 2.4%) 
+
+Level flags = 0
+
+Total triangle count: 13875
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 31 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 847 portalclusters
+2329 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5305 visible clusters (0.79%)
+Total clusters visible: 672456
+Average clusters visible: 793
+Building PAS...
+Average clusters audible: 847
+visdatasize:186180  compressed from 189728
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5652 faces
+5 degenerate faces
+5733344 square feet [825601600.00 square inches]
+162 Displacements
+1030496 Square Feet [148391472.00 Square Inches]
+5647 patches before subdivision
+235099 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15030666, max 1612
+transfer lists: 114.7 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127710, 94656, 50997)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25430, 18162, 9068)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2234, 1643, 950)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(500, 353, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(83, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1327 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7529/65536       90348/786432   (11.5%) 
+nodes                 1994/65536       63808/2097152  ( 3.0%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5652/65536      316512/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1691/65536       94696/3670016  ( 2.6%) 
+leaves                2004/65536       64128/2097152  ( 3.1%) 
+leaffaces             7384/65536       14768/131072   (11.3%) 
+leafbrushes           2970/65536        5940/131072   ( 4.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31663/512000     126652/2048000  ( 6.2%) 
+edges                17573/256000      70292/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6180/65536       12360/131072   ( 9.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18181056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      186180/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2004/65536        8016/262144   ( 3.1%) 
+HDR ambient table     2004/65536        8016/262144   ( 3.1%) 
+LDR leaf ambient     10601/65536      296828/1835008  (16.2%) 
+HDR leaf ambient      2004/65536       56112/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       25766/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13875
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 31 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 847 portalclusters
+2329 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5305 visible clusters (0.79%)
+Total clusters visible: 672456
+Average clusters visible: 793
+Building PAS...
+Average clusters audible: 847
+visdatasize:186180  compressed from 189728
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5652 faces
+5 degenerate faces
+5733344 square feet [825601600.00 square inches]
+162 Displacements
+1030231 Square Feet [148353264.00 Square Inches]
+5647 patches before subdivision
+235109 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 14992150, max 1609
+transfer lists: 114.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127522, 94528, 50964)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(25406, 18146, 9065)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2230, 1640, 950)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(500, 353, 196)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(82, 58, 36)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(20, 14, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(5, 3, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1, 1, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1464 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7529/65536       90348/786432   (11.5%) 
+nodes                 1994/65536       63808/2097152  ( 3.0%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5652/65536      316512/3670016  ( 8.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1691/65536       94696/3670016  ( 2.6%) 
+leaves                2004/65536       64128/2097152  ( 3.1%) 
+leaffaces             7384/65536       14768/131072   (11.3%) 
+leafbrushes           2970/65536        5940/131072   ( 4.5%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31663/512000     126652/2048000  ( 6.2%) 
+edges                17573/256000      70292/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            323/32768        3230/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6180/65536       12360/131072   ( 9.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18181056/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      186180/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2004/65536        8016/262144   ( 3.1%) 
+HDR ambient table     2004/65536        8016/262144   ( 3.1%) 
+LDR leaf ambient     10584/65536      296352/1835008  (16.1%) 
+HDR leaf ambient      2004/65536       56112/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/208      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26242/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13875
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 32 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5002 visible clusters (0.73%)
+Total clusters visible: 682373
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755980 square feet [828861120.00 square inches]
+162 Displacements
+1030070 Square Feet [148330160.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15006575, max 1612
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127080, 94215, 50833)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26154, 18704, 9364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2319, 1709, 992)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(605, 432, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(96, 69, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 23, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1408 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18183280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10564/65536      295792/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26508/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5002 visible clusters (0.73%)
+Total clusters visible: 682373
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755980 square feet [828861120.00 square inches]
+162 Displacements
+1030070 Square Feet [148330160.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15004034, max 1611
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127081, 94216, 50832)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26154, 18704, 9364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2319, 1709, 992)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(605, 432, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(96, 69, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 23, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1331 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18183280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10566/65536      295848/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26522/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5002 visible clusters (0.73%)
+Total clusters visible: 682373
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755980 square feet [828861120.00 square inches]
+162 Displacements
+1030161 Square Feet [148343248.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15003676, max 1611
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127079, 94214, 50830)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26154, 18704, 9364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2319, 1709, 992)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(605, 432, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(96, 69, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 23, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1783 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18183280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10568/65536      295904/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26592/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 34 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1779 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5002 visible clusters (0.73%)
+Total clusters visible: 682373
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755980 square feet [828861120.00 square inches]
+162 Displacements
+1030207 Square Feet [148349808.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15001751, max 1611
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127080, 94214, 50830)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26156, 18705, 9364)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2319, 1709, 992)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(605, 432, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(96, 69, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 23, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1362 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6224/65536      124480/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18183280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10560/65536      295680/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26620/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1774 texinfos to 807
+Reduced 34 texdatas to 27 (901 bytes to 586)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5016 visible clusters (0.74%)
+Total clusters visible: 682331
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755980 square feet [828861120.00 square inches]
+162 Displacements
+1030207 Square Feet [148349808.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15008752, max 1611
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(127049, 94173, 50795)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26172, 18715, 9367)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2321, 1710, 992)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(605, 432, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(96, 69, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(33, 23, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(7, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1494 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6226/65536      124520/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 27/2048          864/65536    ( 1.3%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    18099568/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434507/393216   (110.5%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10563/65536      295764/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      214173/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26620/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 33 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1767 texinfos to 807
+Reduced 35 texdatas to 29 (900 bytes to 625)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5016 visible clusters (0.74%)
+Total clusters visible: 682331
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755963 square feet [828858688.00 square inches]
+162 Displacements
+1030207 Square Feet [148349808.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15008890, max 1611
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(128676, 94797, 50782)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26758, 18905, 9365)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2496, 1757, 992)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(654, 442, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 72, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 24, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1413 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6230/65536      124600/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               807/12288       58104/884736   ( 6.6%) 
+texdata                 29/2048          928/65536    ( 1.4%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    17982088/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434506/393216   (110.5%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10580/65536      296240/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      213870/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26620/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 32 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_port/nature/blendsandrock004c_wvt_patch
+Patching WVT material: maps/c1_port/nature/blendgrasspave01_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 194 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (149369 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9..Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+Material NATURE/BLENDSANDROCK004C uses unknown detail object type canal_reeds!
+.10
+Compacting texture/material tables...
+Reduced 1765 texinfos to 809
+Reduced 38 texdatas to 32 (954 bytes to 683)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_port.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.prt
+ 853 portalclusters
+2349 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 5016 visible clusters (0.74%)
+Total clusters visible: 682331
+Average clusters visible: 799
+Building PAS...
+Average clusters audible: 853
+visdatasize:189388  compressed from 191072
+writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+5693 faces
+5 degenerate faces
+5755963 square feet [828858688.00 square inches]
+162 Displacements
+1030207 Square Feet [148349808.00 Square Inches]
+5688 patches before subdivision
+zero area child patch
+235104 patches after subdivision
+8 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 15008890, max 1611
+transfer lists: 114.5 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(128509, 94366, 50489)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(26733, 18796, 9300)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(2493, 1732, 979)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(654, 437, 231)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(110, 70, 41)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(37, 24, 13)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(8, 5, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(3, 2, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1612 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   9/1024          432/49152    ( 0.9%) 
+brushes                622/8192         7464/98304    ( 7.6%) 
+brushsides            5587/65536       44696/524288   ( 8.5%) 
+planes                6230/65536      124600/1310720  ( 9.5%) 
+vertexes              7552/65536       90624/786432   (11.5%) 
+nodes                 2002/65536       64064/2097152  ( 3.1%) 
+texinfos               809/12288       58248/884736   ( 6.6%) 
+texdata                 32/2048         1024/65536    ( 1.6%) 
+dispinfos              162/0           28512/0        ( 0.0%) 
+disp_verts            9762/0          195240/0        ( 0.0%) 
+disp_tris            14976/0           29952/0        ( 0.0%) 
+disp_lmsamples     2482256/0         2482256/0        ( 0.0%) 
+faces                 5693/65536      318808/3670016  ( 8.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1696/65536       94976/3670016  ( 2.6%) 
+leaves                2012/65536       64384/2097152  ( 3.1%) 
+leaffaces             7438/65536       14876/131072   (11.3%) 
+leafbrushes           2999/65536        5998/131072   ( 4.6%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges            31879/512000     127516/2048000  ( 6.2%) 
+edges                17687/256000      70748/1024000  ( 6.9%) 
+LDR worldlights          8/8192          704/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            330/32768        3300/327680   ( 1.0%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          6297/65536       12594/131072   ( 9.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]    17982176/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      189388/16777216 ( 1.1%) 
+entdata               [variable]      434041/393216   (110.4%) VERY FULL!
+LDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+HDR ambient table     2012/65536        8048/262144   ( 3.1%) 
+LDR leaf ambient     10582/65536      296296/1835008  (16.1%) 
+HDR leaf ambient      2012/65536       56336/1835008  ( 3.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/632204   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/212      ( 0.5%) 
+pakfile               [variable]      213897/0        ( 0.0%) 
+physics               [variable]      149369/4194304  ( 3.6%) 
+physics terrain       [variable]       26620/1048576  ( 2.5%) 
+
+Level flags = 0
+
+Total triangle count: 13989
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_port.bsp
+1 minute, 33 seconds elapsed
