@@ -10564,10 +10564,24 @@ Writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_for
 
 
 
+<<<<<<< HEAD
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_forest.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\gameinfo.txt
+=======
+<<<<<<< HEAD
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_forest.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\gameinfo.txt
+=======
 materialPath: C:\Program Files (x86)\Steam\steamapps\sourcemods\Half-Life-3\materials
 Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\Half-Life-3\bin\c1_forest.vmf
 ConVarRef mat_reduceparticles doesn't point to an existing ConVar
 Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\gameinfo.txt
+>>>>>>> fb0fb89ceae69c313b06b00fb3abe6f26c540a28
+>>>>>>> a321e1aaa71fae5bb3a2f630d3a43a2dd2773cdb
 Patching WVT material: maps/c1_forest/nature/blendrockdirt_tunnel03a_dx8_wvt_patch
 fixing up env_cubemap materials on brush sides...
 0...1...2...3...4...5...6...7...8...9...10**** leaked ****
@@ -10596,29 +10610,65 @@ Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
 Compacting texture/material tables...
 Reduced 247 texinfos to 125
 Reduced 10 texdatas to 10 (247 bytes to 247)
+<<<<<<< HEAD
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3-dev\Half-Life-3\bin\c1_forest.bsp
+=======
+<<<<<<< HEAD
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\hl3 - dev\Half-Life-3\bin\c1_forest.bsp
+=======
 Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\Half-Life-3\bin\c1_forest.bsp
+>>>>>>> fb0fb89ceae69c313b06b00fb3abe6f26c540a28
+>>>>>>> a321e1aaa71fae5bb3a2f630d3a43a2dd2773cdb
 1 second elapsed
 
 
 
 4 threads
+<<<<<<< HEAD
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_forest.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_forest.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_forest.prt
+=======
+<<<<<<< HEAD
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_forest.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_forest.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_forest.prt
+=======
 reading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.bsp
 reading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.prt
 LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.prt
+>>>>>>> fb0fb89ceae69c313b06b00fb3abe6f26c540a28
+>>>>>>> a321e1aaa71fae5bb3a2f630d3a43a2dd2773cdb
 
 
 
 [Reading texlights from 'lights.rad']
 [48 texlights parsed from 'lights.rad']
 
+<<<<<<< HEAD
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_forest.bsp
+=======
+<<<<<<< HEAD
+Loading c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_forest.bsp
+=======
 Loading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.bsp
+>>>>>>> fb0fb89ceae69c313b06b00fb3abe6f26c540a28
+>>>>>>> a321e1aaa71fae5bb3a2f630d3a43a2dd2773cdb
 No vis information, direct lighting only.
 6181 faces
 8480903 square feet [1221250048.00 square inches]
 78 Displacements
 195103 Square Feet [28094964.00 Square Inches]
 0 direct lights
+<<<<<<< HEAD
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1766 sec>
+=======
+<<<<<<< HEAD
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.2252 sec>
+=======
 0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.2371 sec>
+>>>>>>> fb0fb89ceae69c313b06b00fb3abe6f26c540a28
+>>>>>>> a321e1aaa71fae5bb3a2f630d3a43a2dd2773cdb
 0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
 0 of 0 (0% of) surface lights went in leaf ambient cubes.
 0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
@@ -10675,6 +10725,14 @@ physics terrain       [variable]        8798/1048576  ( 0.8%)
 Level flags = 0
 
 Total triangle count: 15088
+<<<<<<< HEAD
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3-dev\half-life-3\bin\c1_forest.bsp
+14 seconds elapsed
+=======
+<<<<<<< HEAD
+Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_forest.bsp
+14 seconds elapsed
+=======
 Writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.bsp
 17 seconds elapsed
 
@@ -11489,6 +11547,7 @@ Level flags = 0
 Total triangle count: 15088
 Writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.bsp
 16 seconds elapsed
+<<<<<<< HEAD
 
 
 
@@ -11953,3 +12012,7 @@ Level flags = 0
 Total triangle count: 15088
 Writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_forest.bsp
 18 seconds elapsed
+=======
+>>>>>>> fb0fb89ceae69c313b06b00fb3abe6f26c540a28
+>>>>>>> a321e1aaa71fae5bb3a2f630d3a43a2dd2773cdb
+>>>>>>> origin/development
