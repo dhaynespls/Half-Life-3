@@ -8560,3 +8560,144 @@ Level flags = 0
 Total triangle count: 17901
 Writing c:\program files (x86)\steam\steamapps\sourcemods\hl3 - dev\half-life-3\bin\c1_cave.bsp
 27 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\bin\c1_cave.vmf
+"materials/Watersource/waterfall/WaterfallSOFT_512_NRM_CLEAR.vtf": cached version doesn't exist
+"materials/watersource/waterfall/waterfallsoft_512_clear.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_cave/nature/blendrockdirt_tunnel03a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 218 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\bin\c1_cave.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (58084 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 168 texinfos to 85
+Reduced 15 texdatas to 10 (486 bytes to 279)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\bin\c1_cave.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.prt
+ 565 portalclusters
+1476 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1607 visible clusters (0.51%)
+Total clusters visible: 314132
+Average clusters visible: 555
+Building PAS...
+Average clusters audible: 565
+visdatasize:84756  compressed from 81360
+writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.bsp
+7156 faces
+14795634 square feet [2130571264.00 square inches]
+6 Displacements
+21883 Square Feet [3151221.50 Square Inches]
+7156 patches before subdivision
+634396 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5..
+
+
+materialPath: C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\materials
+Loading C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\bin\c1_cave.vmf
+"materials/Watersource/waterfall/WaterfallSOFT_512_NRM_CLEAR.vtf": cached version doesn't exist
+"materials/watersource/waterfall/waterfallsoft_512_clear.vtf": cached version doesn't exist
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\gameinfo.txt
+Patching WVT material: maps/c1_cave/nature/blendrockdirt_tunnel03a_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 218 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\bin\c1_cave.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (58084 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 168 texinfos to 85
+Reduced 15 texdatas to 10 (486 bytes to 279)
+Writing C:\Program Files (x86)\Steam\SteamApps\sourcemods\Half-Life-3\bin\c1_cave.bsp
+2 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.prt
+ 565 portalclusters
+1476 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 1607 visible clusters (0.51%)
+Total clusters visible: 314132
+Average clusters visible: 555
+Building PAS...
+Average clusters audible: 565
+visdatasize:84756  compressed from 81360
+writing c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\half-life-3\bin\c1_cave.bsp
+7156 faces
+14795634 square feet [2130571264.00 square inches]
+6 Displacements
+21883 Square Feet [3151221.50 Square Inches]
+7156 patches before subdivision
+634396 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5..
