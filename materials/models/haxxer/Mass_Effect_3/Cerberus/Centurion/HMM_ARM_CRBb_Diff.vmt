@@ -1,0 +1,22 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\haxxer\mass_effect_3\cerberus\centurion\HMM_ARM_CRBb_Diff"
+	"$bumpmap" "models\haxxer\mass_effect_3\cerberus\centurion\HMM_ARM_CRBb_Norm"
+
+	"$color2" "[1 1 1]"
+	"$ambientocclusion" 1
+	"$detail" "models\haxxer\mass_effect_3\cerberus\centurion\HMM_ARM_CRBb_blend"
+	"$detailscale" 1
+	"$detailblendfactor" 1.25
+	"$detailblendmode" 5
+
+	"$phong" 1
+	"$phongboost" 0.1
+	"$phongexponent" 1
+	"$phongtint" "[1 .85 .85]"
+	"$phongfresnelranges" "[.5 .85 30]"
+	"$model" 1
+	"$phongalbedotint" 1
+	"$model" 1
+}
+

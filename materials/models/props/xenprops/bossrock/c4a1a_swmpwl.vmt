@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	// original shader: basetimeslightmap
+	"$basetexture" "xeno/c4a1a_swmpwl"
+}

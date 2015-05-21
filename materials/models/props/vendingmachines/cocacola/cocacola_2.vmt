@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "halflifeprops/vendingmachine/cocacola_2"
+	"$surfaceprop" "glass"
+}

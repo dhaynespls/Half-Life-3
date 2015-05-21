@@ -1,0 +1,7 @@
+"unlitgeneric"
+{
+	$model 1 	"$basetexture" "decals/decalporthole001b"
+	"$selfillum" 1
+	"$surfaceprop" "glass"
+	"$nodecal" "1"
+}
